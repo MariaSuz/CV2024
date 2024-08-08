@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+// Плавная прокрутка по якорям! ниже
+  html {
+    scroll-behavior: smooth;
+    } 
+
+  body {
+    width: 100%;
+    @extend %font-prim;
+    @include font(16px, 24px);
+    color: $text-main;
+    min-width: 320px;
+  }
+
+  h1{
+    @extend %font-second;
+    @include font(32px, 50px);
+  }
+
+  h2 {
+    @extend %font-second;
+    @include font(24px, 50px);
+  }
+
+  h3 {
+    @extend %font-second;
+    @include font(20px, 50px);
+  }
+
+
+.img {
+  max-width: 100%;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+
+}
+
+a {
+  text-decoration: none;
+}

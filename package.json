@@ -1,0 +1,12 @@
+{
+  "name": "cv2024",
+  "version": "1.0.0",
+  "description": "Скоро будет создано",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style": "sass --watch src/sass/style.scss style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

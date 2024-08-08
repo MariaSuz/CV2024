@@ -1,0 +1,13 @@
+%font-prim {
+    font-family:  Arial, Helvetica, sans-serif;
+    src: url("../../fonts/arial/arial-regular.ttf") format("truetype");
+}
+
+%font-second {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    src: url("../../fonts/georgia/georgia-regular.ttf") format("truetype");
+}
+
+%transition {
+    transition: all 0.3s ease;
+}
