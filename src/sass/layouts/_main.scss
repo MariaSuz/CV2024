@@ -5,6 +5,12 @@
     justify-content: center;
     overflow: hidden;
     max-width: 20%;
+    @include media-tablet{
+        max-width: 60%;
+    }
+    @include media-mobile{
+        max-width: 90%;
+    }
 }
 
 .my-photo{
@@ -25,6 +31,7 @@
 .p__frontend{
     text-decoration-line: overline;
     text-decoration-thickness: 2px;
+    color: $text-italik;
 }
 
 .contacts__li{
@@ -33,12 +40,20 @@
     gap: 10px;
 }
 
+.contacts__a{
+    color: $text-main;
+}
+
 .contacts__img{
     width: 20px;
 }
 
 .ul__contacts{
     font-weight: bold;
+}
+
+.about-me__span{
+ text-align: justify;
 }
 
 .education_li{
