@@ -42,6 +42,9 @@
 
 .contacts__a{
     color: $text-main;
+    &:hover {
+        color: white;
+    }
 }
 
 .contacts__img{
@@ -100,6 +103,10 @@
     @extend %transition;
     background-color: $background-color-project-text;
     width: 280px;
+    &:hover{
+        background-color: wheat;
+        opacity: 0.3;
+    }
 }
 
 .projects_link{
@@ -131,3 +138,10 @@
 .projects{
     padding-bottom: 50px;
 }
+
+.courses-link{
+    text-decoration: underline;
+    &:hover{
+        color:#FF69B4;
+    }
+  }

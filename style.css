@@ -68,6 +68,11 @@ li {
 
 a {
   text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
 }
 
 .wrapper {
@@ -205,6 +210,9 @@ section {
 .contacts__a {
   color: #101214;
 }
+.contacts__a:hover {
+  color: white;
+}
 
 .contacts__img {
   width: 20px;
@@ -263,6 +271,10 @@ section {
   background-color: rgba(42, 174, 231, 0.1);
   width: 280px;
 }
+.projects__item:hover {
+  background-color: wheat;
+  opacity: 0.3;
+}
 
 .projects_link {
   display: flex;
@@ -291,6 +303,13 @@ section {
 
 .projects {
   padding-bottom: 50px;
+}
+
+.courses-link {
+  text-decoration: underline;
+}
+.courses-link:hover {
+  color: #FF69B4;
 }
 
 /*# sourceMappingURL=style.css.map */
