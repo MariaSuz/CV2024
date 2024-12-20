@@ -31,7 +31,7 @@
 .p__frontend{
     text-decoration-line: overline;
     text-decoration-thickness: 2px;
-    color: $text-italik;
+    color: rgba(238,174,202,1);
 }
 
 .contacts__li{
@@ -42,9 +42,6 @@
 
 .contacts__a{
     color: $text-main;
-    &:hover {
-        color: white;
-    }
 }
 
 .contacts__img{
@@ -103,10 +100,6 @@
     @extend %transition;
     background-color: $background-color-project-text;
     width: 280px;
-    &:hover{
-        background-color: wheat;
-        opacity: 0.3;
-    }
 }
 
 .projects_link{
@@ -132,7 +125,7 @@
 .projects_images_language{
     display: flex;
     gap: 28px;
-    background-color: #101214;
+    background-color: $text-main;
 }
 
 .projects{
@@ -141,7 +134,19 @@
 
 .courses-link{
     text-decoration: underline;
-    &:hover{
-        color:#FF69B4;
-    }
   }
+
+
+  @media (hover: hover) and (pointer: fine)  {
+    /* when hover is supported */
+    .courses-link:hover {
+        color:$links-color;
+    }
+    .contacts__a:hover{
+        color: $text-light;
+    }
+    .projects__item:hover{
+        background-color: $project-color;
+        opacity: 0.7;
+    }
+}
